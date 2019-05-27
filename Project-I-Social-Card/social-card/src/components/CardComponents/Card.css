@@ -5,6 +5,10 @@
   border-radius: 10px;
 }
 
+.card-container:hover {
+  cursor: pointer;
+}
+
 .card-banner {
   margin: 0;
 }

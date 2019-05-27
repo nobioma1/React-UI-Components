@@ -5,12 +5,15 @@ import CardContent from './CardContent';
 
 const CardContainer = ({ banner, content }) => {
   return (
-    <div className="card-container">
+    <div
+      className="card-container"
+      onClick={() => (window.location.href = `https://${content.link}`)}
+    >
       <CardBanner 
         link={banner.link} 
         alt={banner.alt} 
       />
-      <CardContent 
+      <CardContent
         title={content.title}
         text={content.text}
         link={content.link}
