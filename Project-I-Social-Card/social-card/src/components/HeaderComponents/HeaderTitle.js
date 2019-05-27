@@ -1,5 +1,8 @@
 import React from 'react';
+import Moment from 'moment';
 import './Header.css';
+
+const today = Moment().format('D MMM').toLowerCase();
 
 const HeaderTitle = ({ title, handle }) => {
   return (
@@ -7,7 +10,7 @@ const HeaderTitle = ({ title, handle }) => {
       <h1>{title}</h1>
       <div className="header-details">
         <span>{handle}</span>
-        <span> &#8226; 26 Jan</span>
+        <span> &#8226; {today}</span>
       </div>
     </div>
   );
