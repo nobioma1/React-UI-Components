@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.container {
+  max-width: 700px;
+}
+
+.header {
+  display: flex;
+}
+
+.avatar {
+  width: 40%;
+  padding: 10px 0;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.header-title h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+.header-details {
+  opacity: 0.5;
+}
+
+.header-content {
+  padding: 10px;
+  font-size: 1.5rem;  
+}
+
+.header-content p{
+  margin: 0;
+  padding: 10px 0;
+}
