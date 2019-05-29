@@ -1,5 +1,39 @@
+*,
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #355c7d;
+  background: -webkit-linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  font-size: 62.5%;
+}
+
+.main-container h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: whitesmoke;
+}
+@media (max-width: 500px) {
+  .main-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.calculator {
+  border: 2px solid gray;
+  width: 450px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 500px) {
+  .calculator {
+    width: 95%;
+  }
 }
